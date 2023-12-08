@@ -1,0 +1,611 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "AmstelvarAlpha";
+    src: url("AmstelvarAlpha-VF.woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans-Regular.ttf");
+}
+/*გვერდის პირველი ზოლო*/
+.container{
+    background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
+    display: flex;
+    justify-content: center;
+    height: 847px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box1{
+    position: relative;
+    width: 1320px;
+    height: 847px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagesection1{
+    width: 20px;
+    height: 19px;
+}
+#person{
+    margin-left: 347px;
+}
+#key{
+    margin-left: 22px;
+}
+.corallogo{
+    width: 31px;
+    height: 15px;
+    margin-left: 545px;
+}
+#logo2{
+    margin-left: 10px;
+}
+.sitename{
+    margin: 0;
+    margin-left: 10px;
+    color: var(--Dark, #000);
+    font-size: 28px;
+}
+.section1text{
+    margin: 0;
+    margin-left: 8px;
+    color: var(--Black, #1E2832);
+    font-family: Roboto;
+    font-size: 18px;
+}
+.section2{
+    margin-top: 25px;
+    width: 1320px;
+    height: 1px;
+    background-color: #E3E3E3;
+}
+/*გვერდის პირველი ზოლის დასასრული*/
+/*მენიუს ზოლი*/
+.section3{
+    margin-top: 30px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.section3text{
+    color: var(--Dark, #000);
+    font-family: Open Sans;
+    font-size: 16px;
+}
+/*მენიუს ზოლის დასასრული*/
+/*გვერდის აღწერა და სურათი*/
+.section4{
+    display: flex;
+}
+.section4text1{
+    margin: 0;
+    margin-top: 155px;
+    color: var(--Dark, #000);
+    font-family: Roboto;
+    font-size: 74px;
+    font-weight: 300;
+}
+.section4text2{
+    margin: 0;
+    margin-left: 4px;
+    margin-top: 52px;
+    color: var(--Dark, #000);
+    font-family: Roboto;
+    font-size: 30px;
+}
+.button{
+    margin-top: 66px;
+    align-items: center;
+    width: 223px;
+    height: 72px;
+    background-color: var(--Black, #1E2832);
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 29px;
+}
+.keywhite{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.charcho{
+    position: absolute;
+    right: 94px;
+    top: 245px;
+    width: 424px;
+    height: 542px;
+    border-radius: 160px 0px;
+    border: 2px solid var(--Dark-25, rgba(0, 0, 0, 0.25));
+}
+#imagewomen{
+    top: 225px;
+    right: 112px;
+}
+/*გვერდის აღწერის და სურათის დასასრული*/
+/*მთავარი გვერდის დამატებითი სურათები*/
+.imageright{
+    position: absolute;
+    top: 365px;
+    right: -20px;
+    width: 194px;
+    height: 261px;
+}
+.imageleft{
+    position: absolute;
+    top: 614px;
+    left: -10px;
+    width: 132px;
+    height: 66px;
+}
+/*ვერტიკალური ტექსტი*/
+.vertical{
+    position: absolute;
+    color: var(--Dark, #000);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 400;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    margin-left: -320px;
+    margin-top: -335px;
+}
+/*ბრენდის სტილები და სურათები*/
+.container2{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+}
+.box2{
+    width: 1320px;  
+}
+.brends{
+    display: flex;
+    justify-content: space-around;
+}
+.brendslogo{
+    width: 200px;
+    height: 70px;
+}
+.clothes{
+    width: 1320px;
+    height: 648px;
+    margin-top: 90px;
+    position: relative;
+}
+.imageclothes{
+    width: 648px;
+    height: 648px;
+}
+.imageclothes1{
+    position: absolute;
+    width: 312px;
+    height: 312px;
+}
+#imageclothes2{
+    right: 336px;
+    top: 0;
+}
+#imageclothes3{
+    right: 0;
+    top: 0;
+}
+#imageclothes4{
+    right: 336px;
+    bottom: 0;
+}
+#imageclothes5{
+    right: 0;
+    bottom: 0;
+}
+.title{
+    width: 707px;
+    height: 59px;
+    margin: auto;
+}
+.titletext{
+    margin-top: 140px;
+    color: var(--Dark, #000);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+}
+.menulist{
+    margin-top: 35px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 373px;
+    height: 22px;
+    font-weight: 600;
+}
+.allproducts{
+    margin-top: 0;
+    color: var(--Dark, #000);
+    font-family: Open Sans;
+    font-size: 16px;
+}
+.products1{
+    margin-top: 0;
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+    font-family: Open Sans;
+    font-size: 16px;
+}
+.filter{
+    width: 95px;
+    height: 32px;
+    background-color: var(--Black, #1E2832);
+    align-items: center;
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content:center;
+    gap: 4px;
+}
+.imagefilter{
+    width: 20px;
+    height: 20px;
+}
+.menuimages{
+    position: relative;
+    margin-top: 35px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.menufoto1{
+    width: 320px;
+    height: 400px;
+}
+.sale{
+    position: absolute;
+    top: 22px;
+    right: 268px;
+    width: 52px;
+    height: 24px;
+    background-color: var(--Black, #1E2832);
+    border: none;
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+}
+.fototextbox{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.fototext{
+    position: relative;
+    width: 320px;
+    height: 60px;
+}
+.fototexth1{
+    margin-top: 0;
+    margin-left: 10px;
+    color: var(--Dark, #000);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fototextp1{
+    margin-left: 10px;
+    color: var(--Dark-50, rgba(0, 0, 0, 0.50));
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fototextprice{
+    position: absolute;
+    right: 10px;
+    top: 23px;
+    color: var(--Dark, #000);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+#fototextprice2{
+    right: 82px;
+
+}
+.fotosale{
+    position: absolute;
+    right: 10px;
+    top: 23px;
+    color: var(--Primary, #FF6F61);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+#menuimages{
+    position: relative;
+    margin-top: 24px;
+}
+.hot{
+    width: 52px;
+    height: 24px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background-color: var(--Primary, #FF6F61);
+    border: none;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+}
+#sale2{
+    left: 333px;
+}
+#fototextprice3{
+    right: 82px;
+}
+/*ბრენდის სტილები და სურათების დასასრული*/
+/*ზარა*/
+.zaraimage{
+    position: relative;
+    background-color: #000;
+    margin-top: 140px;
+    width: 100%;
+    height: 776px;
+
+}
+.zarabaner{
+    width: 100%;
+    height: 100%;
+}
+.zaralogo{
+    width: 191px;
+    height: 81px;
+    position: absolute;
+    top: 233px;
+    left: 54.0%;
+}
+.zaratextbox{
+    position: absolute;
+    top: 369px;
+    left: 54%;
+    width: 504px;
+    height: 187px;
+    text-align: justify;
+
+}
+.zaratext{
+    color: #FFF; 
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+.zarabutton{
+    position: absolute;
+    top: 611px;
+    left: 54%;
+    width: 237px;
+    height: 72px;
+    color: var(--Black, #1E2832);
+    border: none;
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 400;
+}
+/*Best sellers კაატეგორია*/
+#container3{
+    margin: 0;
+}
+#sale3{
+    position: absolute;
+    right: 602px;
+}
+/*ინსტაგრამის კატეგორია*/
+#box3{
+    height: 754px;
+    margin-top: 140px;
+}
+#titletext2{
+    margin-top: 100px;
+}
+#instagram{
+    margin-top: 60px;
+}
+.imageinstagram{
+    width: 200px;
+    height: 200px;
+}
+#titletext3{
+    margin-top: 70px;
+}
+/*გაგზავნის ლინკი*/
+.submitbox{
+    position: relative;
+    margin-top: 74px;
+    height: 32;
+   text-align: center;
+}
+.input{
+    width: 643px;
+    height: 42px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background:none;
+    color: #000;
+}
+::placeholder{
+    color: var(--Black-50, rgba(30, 40, 50, 0.50));
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+.submit{
+    position: absolute;
+    bottom: 0;
+    margin-left: 26px;
+    width: 91px;
+    height: 32px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    color: var(--Black, #1E2832);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*გვერდის სხვადახვა მომსახურება და კატალოგები*/
+#box4{
+    margin-top: 140px;
+    height: 200px;
+}
+#menubox{
+    display: flex;
+    justify-content: space-between;
+}
+.blok1{
+    width: 392px;
+    height: 207px;
+}
+.blok1line1{
+    width: 392px;
+    height: 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#line1logo1{
+    margin-left: 0;
+}
+#line1logo2{
+    margin-left: 10px;
+}
+.blok1line2{
+    margin-top: 32px;
+    width: 392px;
+    height: 84px;
+    
+}
+.line2text{
+    margin: 0;
+    text-align: justify;
+    color: var(--Black-75, rgba(30, 40, 50, 0.75));
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.blok1line3{
+    margin-top: 32px;
+    width: 392px;
+    height: 25px;
+}
+.line3images{
+
+    width: 188px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.miniimage{
+    width: 20px;
+    height: 19px;
+}
+.blok2{
+    width: 872px;
+    height: 207px;
+    display: flex;
+    justify-content: space-between;
+}
+.blok2line1{
+   width: 392px;
+   height: 207px;
+
+}
+.catalog{
+    width: 200px;
+    height: 22px;
+}
+.paragrafi{
+    margin: 0;
+    color: var(--Black, #1E2832);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.line2{
+    margin-top: 22px;
+}
+.line3{
+    margin-top: 12px;
+}
+/*შავი ზოლი*/
+#black{
+    margin-top: 90px;
+    width: 100%;
+    height: 52px;
+    background-color: var(--Black, #1E2832);
+}
+#blackbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blackline{
+    width: 137px;
+    height: 22px;
+}
+.paragrafi2{
+    margin: 0;
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.blackimage{
+    width: 283px;
+    height: 24px;
+}
+
+.scroll{ 
+    color: var(--White, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+.scrollimage{
+    padding-top: 2px;
+    width: 16px;
+    height: 16px;
+}
