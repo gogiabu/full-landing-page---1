@@ -139,7 +139,7 @@ body{
 .imageright{
     position: absolute;
     top: 365px;
-    right: -20px;
+    right: 0;
     width: 194px;
     height: 261px;
 }
